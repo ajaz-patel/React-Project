@@ -1,4 +1,6 @@
 import './App.css';
+import About from './Component/About';
+import Contact from './Component/Contact';
 import Footer from './Component/Footer';
 import Home from './Component/Home';
 import Login from './Component/Login';
@@ -12,6 +14,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/about" element={<About />} />
         
       </Routes>
       
